@@ -4,42 +4,107 @@
 <title>EASY DOCUMENT PRINT</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-body {font-family: Arial; text-align:center; background:#f2f2f2; padding:20px;}
-.box {background:white; padding:20px; margin:15px auto; width:90%; max-width:400px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);}
-button {padding:12px 20px; margin:10px; border:none; border-radius:5px; background:#25D366; color:white; font-size:16px; cursor:pointer;}
-.pay {background:#007bff;}
-h2 {color:#333;}
+body {font-family: Arial; margin:0; background:#f4f6f9;}
+header {
+  background:#0d6efd; color:white; text-align:center;
+  padding:20px; font-size:20px;
+}
+.container {
+  display:flex; flex-wrap:wrap; justify-content:center;
+  padding:10px;
+}
+.card {
+  background:white; width:280px; margin:10px;
+  padding:15px; border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+  text-align:center;
+}
+.card h3 {margin:10px 0;}
+.price {color:green; font-weight:bold; font-size:18px;}
+button {
+  width:100%; padding:10px; margin-top:8px;
+  border:none; border-radius:6px;
+  font-size:14px; cursor:pointer;
+}
+.pay {background:#0d6efd; color:white;}
+.whatsapp {background:#25D366; color:white;}
+footer {
+  text-align:center; font-size:12px;
+  padding:15px; color:#555;
+}
 </style>
 </head>
+
 <body>
 
+<header>
 <h2>EASY DOCUMENT PRINT</h2>
-<p>We help you download DL & RC from official portal.</p>
+<p>All Document Help Services</p>
+</header>
 
-<div class="box">
-<h3>Driving Licence Download</h3>
-<p>Service Charge: ₹49</p>
-<button class="pay" onclick="alert('Pay ₹349 to UPI: 8595368473@naviaxis')">Pay Now</button>
-<br>
-<a href="https://wa.me/918595368473?text=Hello%20I%20have%20paid%20for%20DL%20service.%20My%20DL%20Number%20is:%20">
-<button>Send DL Details on WhatsApp</button>
-</a>
+<div class="container">
+
+<div class="card">
+<h3>Aadhaar → PAN</h3>
+<p class="price">₹100</p>
+<button class="pay" onclick="alert('Pay ₹100 to UPI: 8595368473@naviaxis')">Pay Now</button>
+<a href="https://wa.me/918595368473?text=Paid%20for%20Aadhaar%20to%20PAN%20Service">
+<button class="whatsapp">Send Details</button></a>
 </div>
 
-<div class="box">
-<h3>RC Download</h3>
-<p>Service Charge: ₹49</p>
-<button class="pay" onclick="alert('Pay ₹349 to UPI: 8595368473@naviaxis')">Pay Now</button>
-<br>
-<a href="https://wa.me/918595368473?text=Hello%20I%20have%20paid%20for%20RC%20service.%20My%20Vehicle%20Number%20is:%20">
-<button>Send RC Details on WhatsApp</button>
-</a>
+<div class="card">
+<h3>Ration → Aadhaar</h3>
+<p class="price">₹100</p>
+<button class="pay" onclick="alert('Pay ₹100 to UPI: 8595368473@naviaxis')">Pay Now</button>
+<a href="https://wa.me/918595368473?text=Paid%20for%20Ration%20to%20Aadhaar">
+<button class="whatsapp">Send Details</button></a>
 </div>
 
-<p style="margin-top:30px; font-size:12px;">
-Disclaimer: We are not affiliated with any government body. 
-Documents are downloaded from official portals.
-</p>
+<div class="card">
+<h3>Driving Licence PDF</h3>
+<p class="price">₹150</p>
+<button class="pay" onclick="alert('Pay ₹150 to UPI: 8595368473@naviaxis')">Pay Now</button>
+<a href="https://wa.me/918595368473?text=Paid%20for%20DL%20PDF">
+<button class="whatsapp">Send Details</button></a>
+</div>
+
+<div class="card">
+<h3>RC PDF</h3>
+<p class="price">₹200</p>
+<button class="pay" onclick="alert('Pay ₹200 to UPI: 8595368473@naviaxis')">Pay Now</button>
+<a href="https://wa.me/918595368473?text=Paid%20for%20RC%20PDF">
+<button class="whatsapp">Send Details</button></a>
+</div>
+
+<div class="card">
+<h3>Ration Card PDF</h3>
+<p class="price">₹50</p>
+<button class="pay" onclick="alert('Pay ₹50 to UPI: 8595368473@naviaxis')">Pay Now</button>
+<a href="https://wa.me/918595368473?text=Paid%20for%20Ration%20Card%20PDF">
+<button class="whatsapp">Send Details</button></a>
+</div>
+
+<div class="card">
+<h3>Voter ID PDF</h3>
+<p class="price">₹100</p>
+<button class="pay" onclick="alert('Pay ₹100 to UPI: 8595368473@naviaxis')">Pay Now</button>
+<a href="https://wa.me/918595368473?text=Paid%20for%20Voter%20ID">
+<button class="whatsapp">Send Details</button></a>
+</div>
+
+<div class="card">
+<h3>Mobile Number Details</h3>
+<p class="price">₹400</p>
+<button class="pay" onclick="alert('Pay ₹400 to UPI: 8595368473@naviaxis')">Pay Now</button>
+<a href="https://wa.me/918595368473?text=Paid%20for%20Mobile%20Details">
+<button class="whatsapp">Send Details</button></a>
+</div>
+
+</div>
+
+<footer>
+Disclaimer: We are not affiliated with any government body.
+</footer>
 
 </body>
 </html>
